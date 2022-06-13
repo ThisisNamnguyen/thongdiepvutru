@@ -23,7 +23,7 @@
     }
     .nothing {
         width: 630px;
-        height: 580px;
+        height: 1000px;
         background-color: white;
         position: fixed;
         z-index: 1;
@@ -56,6 +56,37 @@
         .p2 {
             font-size: 5px;
             margin: 5px;
+        }
+        .nothing {
+            animation: displayText1 linear 10s 3s both;
+        }
+
+        @keyframes displayText1 {
+            from {
+                top: 40px;
+                left: 0;
+                right: 0;
+            }
+
+            to {
+                top: 590px;
+                left: 0;
+                right: 0;
+            }
+        }
+    }
+
+    @media (max-width: 400px) {
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .p1 {
+            font-size: 16px;
+        }
+        .p2 {
+            font-size: 3px;
+            margin: 3px;
         }
         .nothing {
             animation: displayText1 linear 10s 3s both;
@@ -155,7 +186,4 @@ Y7~^^^^^^^~~^~!!7~~~~~~!~~~!~^^^~~~!!!~::.....:::::::::::::::::::::....::::..~77
 ::::::::::::::::::::::::::::::::::::::::::::::::::::^^~!?J5PGG57~7YYJJJ5?::::^777!!!!!?:^!!!!!!!!7?YB#GPYJ??777!!!!~~~~~~~!7?GGPPPPP555PPPP5YJJ?JJJY55</pre>
 
 </body>
-<script>
-
-</script>
 </html>
